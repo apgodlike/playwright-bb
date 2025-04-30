@@ -37,6 +37,7 @@ After(async () => {
 
 Given("User is on {string} homepage", async (website: string) => {
   await page.goto("https://bigbasket.com");
+  console.log("object");
 });
 
 When("User Searches for {string}", async (product: string) => {
