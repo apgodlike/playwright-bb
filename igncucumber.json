@@ -1,0 +1,10 @@
+{
+  "default": {
+    "formatOptions": {
+      "snippetInterface": "async-await"
+    },
+    "path": ["src/test/features/"],
+    "dryRun": true,
+    "require": ["ts-node/register/esm", "src/test/steps/*.ts"]
+  }
+}
